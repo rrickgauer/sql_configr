@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="sql_configr", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Ryan Rickgauer",
     author_email="rrickgauer1@gmail.com",
     description="Quickly create a MySQL credentials json file",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/rrickgauer/sql_configr",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
